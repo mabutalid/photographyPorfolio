@@ -1,7 +1,7 @@
 import {storage} from './index';
 
 const getImage = (images, cb, location) => {
-    storage.child(`${location}/${images}.jpg`)
+    storage.child(`${location}/${images}`)
     .getDownloadURL()
     .then((url) => {
         cb(url);

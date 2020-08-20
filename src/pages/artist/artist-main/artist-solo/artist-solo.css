@@ -1,0 +1,138 @@
+.header{
+    font-size: 7vw;
+}
+
+.header2{
+    font-size: 3.5vw;
+}
+
+
+.rectangle{
+    width:100%;
+    position: relative;
+}
+
+.rectangle::after{
+    content: "";
+    display: block;
+    padding-top: 150%;
+}
+
+
+@media only screen and (min-width: 300px){
+    .header{
+        font-size: 38px;
+    }
+    .header2{
+        font-size: 25px;
+    }
+
+    .rectangle{
+        width:100%;
+        position: relative;
+    }
+    
+    .rectangle::after{
+        content: "";
+        display: block;
+        padding-top: 140%;
+    }
+}
+
+
+@media only screen and (min-width: 370px){
+    .header{
+        font-size: 10vw;
+    }
+    .header2{
+        font-size: 5vw;
+    }
+
+    .rectangle{
+        width:100%;
+        position: relative;
+    }
+    
+    .rectangle::after{
+        content: "";
+        display: block;
+        padding-top: 130%;
+    }
+}
+
+@media only screen and (min-width: 450px){
+    .header{
+        font-size: 50px;
+    }
+    .header2{
+        font-size: 25px;
+    }
+
+    .rectangle{
+        width:100%;
+        position: relative;
+    }
+    
+    .rectangle::after{
+        content: "";
+        display: block;
+        padding-top: 120%;
+    }
+}
+
+@media only screen and (min-width: 500px){
+    .header{
+        font-size: 50px;
+    }
+    .header2{
+        font-size: 25px;
+    }
+
+    .rectangle{
+        width:100%;
+        position: relative;
+    }
+    
+    .rectangle::after{
+        content: "";
+        display: block;
+        padding-top: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 640px){
+
+    .rectangle{
+        width:100%;
+        position: relative;
+    }
+    
+    .rectangle::after{
+        content: "";
+        display: block;
+        padding-top: 120%;
+    }
+}
+
+
+@media only screen and (min-width: 768px){
+    .header{
+        font-size: 9vw;
+    }
+    .header2{
+        font-size: 4vw;
+    }
+
+    .rectangle{
+        width:100%;
+        position: relative;
+    }
+    
+    .rectangle::after{
+        content: "";
+        display: block;
+        padding-top: 150%;
+    }
+}
+
