@@ -10,7 +10,7 @@ import Section2 from '../components/section2'
 const ArtistContent = ({artist}) => {
         switch(artist){
             case 'MiguelMonasterial':
-                return(<Miguel />);
+                return( <Miguel />);
             case 'PatriciaPangilinan':
                 return(<Pat />);
             case 'EloiIgni':

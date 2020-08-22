@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import getImage from '../../../../firebase/GetImages';
 import './artist-solo.css';
+import BackButton from './components/back-button';
 
 const Miguel = () => {
     const [img1, setImg1] = useState(null);
@@ -8,7 +9,8 @@ const Miguel = () => {
     return(
         <>
         <title>CLARISSA LORENZO</title>
-        <div className="h-100vh flex flex-col md:flex-row">
+        <div className="h-100vh flex flex-col md:flex-row relative">
+            <BackButton />
             <div className="h-50vh md:h-100vh md:w-5/12">
                 <div className='h-50vh w-7/12 xss:w-6/12 xs:w-4/12 md:w-8/12 mx-auto pl-0 md:pl-0 pt-8 xss:pt-8 md:pt-20'>
                     <div className='rectangle'>
